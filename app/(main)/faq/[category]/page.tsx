@@ -1,6 +1,6 @@
 // FAQ 카테고리별 페이지
 // 유저플로우: FAQ → 학과 카테고리 탭 → 학과 선택 → 학과별 FAQ 목록
-//            FAQ → 서비스 카테고리 탭 → 학과별 FAQ 목록
+//            FAQ → 서비스 카테고리 탭 → 서비스별 FAQ 목록
 // [category] 예시: "software", "ai", "service" 등
 type Props = { params: Promise<{ category: string }> };
 
