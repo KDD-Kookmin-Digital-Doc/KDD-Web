@@ -7,10 +7,10 @@
 //   - 정보 부족 시 추가 정보 요청 UI
 //   - 규정 한계 시 문의 방법 안내
 //   - 유사 질문 추천 (질문 빈도 기반)
-type Props = { params: Promise<{ id: string }> };
+type Props = { params: { id: string } };
 
 export default async function ChatDetailPage({ params }: Props) {
-  const { id } = await params;
+  const { id } = params;
   return (
     <div>
       <h1>채팅 #{id}</h1>
